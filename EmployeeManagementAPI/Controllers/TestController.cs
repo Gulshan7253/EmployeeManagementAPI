@@ -12,5 +12,12 @@ namespace EmployeeManagementAPI.Controllers
         {
             return Ok("Api is working");
         }
+
+        private enum TestEnum
+        {
+            Value1,
+            Value2,
+            Value3
+        }
     }
 }
