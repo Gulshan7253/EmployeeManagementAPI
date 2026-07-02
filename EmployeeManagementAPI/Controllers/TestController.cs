@@ -19,5 +19,11 @@ namespace EmployeeManagementAPI.Controllers
             Value2,
             Value3
         }
+
+        public class Value1 {
+
+            public int testId { get; set; }
+            public int TestName { get; set; }
+        }
     }
 }
