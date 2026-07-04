@@ -37,20 +37,29 @@
       }
     },
     "/api/DeleteDepartment": {
-      "delete": {
+      "post": {
         "tags": [
           "DeleteDepartment"
         ],
-        "parameters": [
-          {
-            "name": "departmentId",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteDepartmentRequestModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteDepartmentRequestModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteDepartmentRequestModel"
+              }
             }
           }
-        ],
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -192,6 +201,16 @@
           "departmentName": {
             "type": "string",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DeleteDepartmentRequestModel": {
+        "type": "object",
+        "properties": {
+          "departmentId": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false

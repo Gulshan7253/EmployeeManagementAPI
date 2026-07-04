@@ -17,12 +17,13 @@ namespace EmployeeManagementAPI.Controllers
         }
 
         [Authorize]
-        [HttpDelete]
-        public async Task<IActionResult> Delete(int departmentId)
+        [HttpPost]
+        public async Task<IActionResult> Delete(DeleteDepartmentRequestModel request)
         {
             try
             {
-                var result = await _authRepository.DeleteDepartment(departmentId);
+                var departmentid = request.departmentId;
+                var result = await _authRepository.DeleteDepartment(departmentid);
                 if (result == 1)
                 {
                     return Ok(new ApiResponse

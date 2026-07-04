@@ -19,14 +19,14 @@
     "ContainingType": "EmployeeManagementAPI.Controllers.DeleteDepartmentController",
     "Method": "Delete",
     "RelativePath": "api/DeleteDepartment",
-    "HttpMethod": "DELETE",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "departmentId",
-        "Type": "System.Int32",
-        "IsRequired": false
+        "Name": "request",
+        "Type": "EmployeeManagementAPI.Models.DeleteDepartmentRequestModel",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
