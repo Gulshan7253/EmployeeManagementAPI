@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WorkSpace\\EmployeeManagementAPI\\EmployeeManagementAPI.csproj": {}
+    "D:\\Work\\EmployeeManagementAPI\\EmployeeManagementAPI.csproj": {}
   },
   "projects": {
-    "D:\\WorkSpace\\EmployeeManagementAPI\\EmployeeManagementAPI.csproj": {
+    "D:\\Work\\EmployeeManagementAPI\\EmployeeManagementAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WorkSpace\\EmployeeManagementAPI\\EmployeeManagementAPI.csproj",
+        "projectUniqueName": "D:\\Work\\EmployeeManagementAPI\\EmployeeManagementAPI.csproj",
         "projectName": "EmployeeManagementAPI",
-        "projectPath": "D:\\WorkSpace\\EmployeeManagementAPI\\EmployeeManagementAPI.csproj",
+        "projectPath": "D:\\Work\\EmployeeManagementAPI\\EmployeeManagementAPI.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "D:\\WorkSpace\\EmployeeManagementAPI\\obj\\",
+        "outputPath": "D:\\Work\\EmployeeManagementAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
