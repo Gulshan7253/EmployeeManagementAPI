@@ -32,6 +32,14 @@ namespace EmployeeManagementAPI.Controllers
                         Message = "Department deleted successfully."
                     });
                 }
+                if (result == 4)
+                {
+                    return NotFound(new ApiResponse
+                    {
+                        Success = "4",
+                        Message = "Department Not Found."
+                    });
+                }
                 return BadRequest(new ApiResponse
                 {
                     Success = "-2",
